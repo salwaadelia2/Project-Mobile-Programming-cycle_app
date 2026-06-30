@@ -36,22 +36,6 @@ Selain menggunakan database lokal (SQLite), aplikasi juga dapat melakukan sinkro
 
 ---
 
-## 📱 Screenshot
-
-Tambahkan screenshot aplikasi pada folder berikut:
-
-```
-screenshots/
-├── login.png
-├── register.png
-├── home.png
-├── tambah_data.png
-├── edit_data.png
-├── prediksi.png
-```
-
----
-
 ## 🛠️ Teknologi yang Digunakan
 
 - Flutter
@@ -72,13 +56,13 @@ lib/
 ├── pages/
 │   ├── login.dart
 │   ├── register.dart
-│   ├── main_page.dart
+│   ├── mainPage.dart
+│   ├── main.dart
 │   └── prediksi_page.dart
 │
 ├── services/
 │   ├── menstruasi_service.dart
 │   ├── mood_service.dart
-│   └── auth_service.dart
 │
 ├── database/
 │   └── db_helper.dart
